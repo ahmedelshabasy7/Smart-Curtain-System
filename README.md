@@ -1,7 +1,7 @@
 # Smart-Curtain-System
 This project implements an automated smart curtain system using a double-layer PCB. The system automatically opens/closes curtains based on sunlight, using digital logic circuits, sensors, and motor control.
 
-Here's a breakdown of the components and their roles:
+Here's a breakdown of the components and their roles :
 
 Logic Gates (Core Control Logic) :
 
@@ -13,7 +13,7 @@ Logic Gates (Core Control Logic) :
 
 NOT Gate (Inverter) → Reverses signals (e.g., converts "dark" to "close curtain" command).
 
-I/O Components:
+I/O Components :
 
 LDR (Light Sensor) → Detects sunlight intensity → Triggers motor when light crosses a threshold.
 
@@ -31,13 +31,11 @@ Motor Driver → Amplifies logic signals to drive the high-current curtain motor
 
 Resistors (R1-R5) → Current limiters for LEDs/sensors (prevents burnout).
 
-PCB Design (Double-Layer):
+PCB Design (Double-Layer) :
 
 Top Layer: Signal traces (logic gates, sensors).
 
 Bottom Layer: Ground/power planes (reduces noise).
-
-The project emphasizes hands-on learning of digital logic fundamentals while creating a practical home automation solution. The double-layer PCB design allows for compact component arrangement while maintaining clear signal separation between power and control circuits.
 
 in summary , This smart curtain system uses a double-layer PCB with logic gates (AND, OR, NAND), an LDR sensor, and limit switches to automate curtain movement based on sunlight. The motor opens/closes the curtains when light changes, while LEDs and resistors provide feedback. The compact PCB design separates power and signal layers for reliable operation.
 Layout: Compact but avoids interference (e.g., motor driver placed far from LDR).
