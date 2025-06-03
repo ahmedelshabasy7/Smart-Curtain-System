@@ -37,5 +37,5 @@ Top Layer: Signal traces (logic gates, sensors).
 
 Bottom Layer: Ground/power planes (reduces noise).
 
-in summary , This smart curtain system uses a double-layer PCB with logic gates (AND, OR, NAND), an LDR sensor, and limit switches to automate curtain movement based on sunlight. The motor opens/closes the curtains when light changes, while LEDs and resistors provide feedback. The compact PCB design separates power and signal layers for reliable operation.
+In summary , This smart curtain system uses a double-layer PCB with logic gates (AND, OR, NAND), an LDR sensor, and limit switches to automate curtain movement based on sunlight. The motor opens/closes the curtains when light changes, while LEDs and resistors provide feedback. The compact PCB design separates power and signal layers for reliable operation.
 Layout: Compact but avoids interference (e.g., motor driver placed far from LDR).
